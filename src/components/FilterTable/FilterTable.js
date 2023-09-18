@@ -16,7 +16,7 @@ function FilterTable() {
       <thead>
         <tr>
           {directives['headers'].map((value) => (
-            <Column data={value} key={value} />
+            <Column data={value} key={value} isHead={true} />
           ))}
         </tr>
       </thead>
