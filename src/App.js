@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { createContext } from 'react';
+
+import FilterTable from './components/FilterTable/FilterTable';
+import data from './mocks/data2.json';
+
+const DataContext = createContext();
+const DirectiveContext = createContext();
+
+const DataProvider = DataContext.Provider;
+const DirectiveProvider = DirectiveContext.Provider;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className='App'>
+      <DataProvider value={data}>
+        <DirectiveProvider
+          value={['Üniversite Adı', 'Program Kodu', 'Puan Türü']}
         >
-          Learn React
-        </a>
-      </header>
+          <FilterTable />
+        </DirectiveProvider>
+      </DataProvider>
     </div>
   );
 }
+
+export { DataContext, DirectiveContext };
 
 export default App;

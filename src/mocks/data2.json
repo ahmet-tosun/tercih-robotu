@@ -1,0 +1,50 @@
+[
+  {
+    "Program Kodu": "100290102",
+    "Üniversite Türü": "DEVLET",
+    "Üniversite Adı": "ADIYAMAN ÜNİVERSİTESİ",
+    "Meslek Yüksekokul Adı": "Besni Ali Erdemoğlu Meslek Yüksekokulu",
+    "Program Adı": "Bankacılık ve Sigortacılık",
+    "Puan Türü": "TYT",
+    "Genel Kont.": "68",
+    "Genel Yerl.": "70",
+    "En Küçük Puan": "234.01185",
+    "En Büyük Puan": "322.13615",
+    "OB Kont.": "2",
+    "OB Yer.": "0",
+    "OBK En Küçük Puan": "--",
+    "OBK En Büyük Puan": "--"
+  },
+  {
+    "Program Kodu": "100290109",
+    "Üniversite Türü": "DEVLET",
+    "Üniversite Adı": "ADIYAMAN ÜNİVERSİTESİ",
+    "Meslek Yüksekokul Adı": "Besni Ali Erdemoğlu Meslek Yüksekokulu",
+    "Program Adı": "Bilgi Yönetimi",
+    "Puan Türü": "TYT",
+    "Genel Kont.": "34",
+    "Genel Yerl.": "35",
+    "En Küçük Puan": "229.16943",
+    "En Büyük Puan": "290.99877",
+    "OB Kont.": "1",
+    "OB Yer.": "0",
+    "OBK En Küçük Puan": "--",
+    "OBK En Büyük Puan": "--"
+  },
+  {
+    "Program Kodu": "100290116",
+    "Üniversite Türü": "DEVLET",
+    "Üniversite Adı": "ADIYAMAN ÜNİVERSİTESİ",
+    "Meslek Yüksekokul Adı": "Besni Ali Erdemoğlu Meslek Yüksekokulu",
+    "Program Adı": "Bilgisayar Programcılığı",
+    "Puan Türü": "TYT",
+    "Genel Kont.": "30",
+    "Genel Yerl.": "31",
+    "En Küçük Puan": "256.08906",
+    "En Büyük Puan": "341.32172",
+    "OB Kont.": "1",
+    "OB Yer.": "0",
+    "OBK En Küçük Puan": "--",
+    "OBK En Büyük Puan": "--"
+  }
+]
