@@ -1,19 +1,29 @@
 import React, { useContext } from 'react';
 import Row from '../Row';
+import Column from '../Column';
 
 import styles from './styles.module.css';
 
 import { DataContext } from '../../App';
+import { DirectiveContext } from '../../App';
 
 function FilterTable() {
   const dataList = useContext(DataContext);
+  const directives = useContext(DirectiveContext);
 
   return (
     <table id={styles.myTable}>
-      <thead>{/* <Row /> */}</thead>
+      <thead>
+        <tr>
+          {directives['headers'].map((value) => (
+            <Column data={value} key={value} />
+          ))}
+        </tr>
+      </thead>
+
       <tbody>
         {dataList.map((data) => (
-          <Row data={data} key={data['Program Kodu']} />
+          <Row data={data} key={data[0]} /> //data[1] or others can be used too, depends on uniqueness
         ))}
       </tbody>
     </table>
